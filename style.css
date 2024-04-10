@@ -10,55 +10,34 @@ footer{
     font-size: 15px;
     bottom: 0;
 }
-
-#age {
-    display: none;
-    position: relative;
-    top: 8rem; 
-    left: -3.5rem; 
-    transform: translate(-50%, -50%);
-    font-size: 20px; 
-    font-family: "Saira Condensed", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    color: dimgray;
-    margin: auto auto;
-}
-#timeLeft{
-    display: none;
-    position: relative;
-    top: 21rem;
-    left: -2.5rem;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-    color: dimgray;
-    margin: auto auto;
-    font-family: "Saira Condensed", sans-serif;
-    font-weight: 600;
-    font-style: normal;
+#dobForm{
+    position: fixed;
+    text-align: center;
 }
 #remainder{
     display: none;
     position: fixed;
-    top: 55%;
-    left: 50%;
+    text-align: center;
     font-size: 40px;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 600%);
     
 }
 #counter {
     display: none;
     position: fixed;
-    top: 33%; 
-    left: 50%; 
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 100%);
     font-size: 40px; 
 }
-#dobForm{
+#age{
+    display:none;
     position: fixed;
-    text-align: center;
+    transform: translate(-320%, 200%);
+    font-size: 20px;
+
 }
-#main{
-    text-align: center;
-    position: relative;
+#timeLeft{
+    display: none;
+    position: fixed;
+    transform: translate(-120%,1200%);
+    font-size: 20px;
 }
