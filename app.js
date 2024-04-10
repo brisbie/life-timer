@@ -15,10 +15,10 @@ function hideDob(){
 function calculateAge(){
     var counterElement = document.getElementById("counter");
     var remainderElement = document.getElementById("remainder");
-    var avgLife = 73;
+    var avgLife = 80;
     updateAgeDisplay();
 
-    setInterval(updateAgeDisplay, 5);
+    setInterval(updateAgeDisplay, 25);
  
     function updateAgeDisplay(){
         var currentDate = new Date();
