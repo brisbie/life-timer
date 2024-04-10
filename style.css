@@ -7,37 +7,60 @@ body{
 footer{
     position: absolute;
     padding-top: 10em;
-    font-size: 15px;
-    bottom: 0;
+    bottom: 1em;
+    font-size: 20px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    
 }
 #dobForm{
     position: fixed;
     text-align: center;
 }
+.text{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
 #remainder{
     display: none;
     position: fixed;
     text-align: center;
-    font-size: 40px;
     transform: translate(-50%, 600%);
-    
+    font-size: 40px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
 }
 #counter {
     display: none;
     position: fixed;
     transform: translate(-50%, 100%);
     font-size: 40px; 
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
 }
 #age{
     display:none;
     position: fixed;
-    transform: translate(-320%, 200%);
+    transform: translate(-410%, 200%);
     font-size: 20px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: dimgray;
 
 }
 #timeLeft{
     display: none;
     position: fixed;
-    transform: translate(-120%,1200%);
+    transform: translate(-160%,1200%);
     font-size: 20px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: dimgrey;
 }
