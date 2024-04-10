@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+}
+footer{
+    position: absolute;
+    padding-top: 10em;
+    font-size: 15px;
+    bottom: 0;
+}
+
+#age {
+    display: none;
+    position: relative;
+    top: 8rem; 
+    left: -3.5rem; 
+    transform: translate(-50%, -50%);
+    font-size: 20px; 
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: dimgray;
+    margin: auto auto;
+}
+#timeLeft{
+    display: none;
+    position: relative;
+    top: 21rem;
+    left: -2.5rem;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: dimgray;
+    margin: auto auto;
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+#remainder{
+    display: none;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    font-size: 40px;
+    transform: translate(-50%, -50%);
+    
+}
+#counter {
+    display: none;
+    position: fixed;
+    top: 33%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 40px; 
+}
+#dobForm{
+    position: fixed;
+    text-align: center;
+}
+#main{
+    text-align: center;
+    position: relative;
+}
